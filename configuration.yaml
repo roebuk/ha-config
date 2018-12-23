@@ -7,6 +7,24 @@ homeassistant:
   time_zone: Europe/London
 
 
+zone:
+  - name: Home
+    latitude: !secret latitude
+    longitude: !secret longitude
+    icon: mdi:home
+    radius: 25
+  - name: Kristian's Work
+    latitude: 53.228073
+    longitude: -0.555374
+    icon: mdi:briefcase
+    radius: 50
+  - name: Kid's School
+    icon: mdi:lead-pencil
+    latitude: !secret kidsschlatitude
+    longitude: !secret kidsschlongitude
+    radius: 50
+
+
 switch:
   - platform: tplink
     host: 192.168.0.100
