@@ -2,6 +2,6 @@ homeassistant:
   name: Home
   latitude: !secret latitude
   longitude: !secret longitude
-  elevation: !secret evevation
+  elevation: !secret elevation
   unit_system: metric
   time_zone: Europe/London
